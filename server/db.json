@@ -1,0 +1,81 @@
+{
+  "treatments": [
+    {
+      "id": 1,
+      "title": "Lumbar Spine",
+      "description": "lumbar description",
+      "sessions_quantity": 28,
+      "physiotherapist_id": 1,
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Neck Spine",
+      "description": "Neck description",
+      "sessions_quantity": 30,
+      "physiotherapist_id": 2,
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Obesity",
+      "description": "obesity description",
+      "sessions_quantity": 20,
+      "physiotherapist_id": 3,
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg"
+    },
+    {
+      "title": "Knees",
+      "description": "Knees description",
+      "sessions_quantity": 15,
+      "physiotherapist_id": 1,
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg",
+      "id": 4
+    }
+  ],
+  "physiotherapists": [
+    {
+      "id": 1,
+      "first_name": "Jhon",
+      "paternal_surname": "Doe",
+      "maternal_surname": "Hammer",
+      "specialization": "Neck",
+      "age": 24,
+      "location": "Surco",
+      "birthdate": "24/05/1998",
+      "email": "jhondoe@gmail.com",
+      "rating": 4.5,
+      "consultations_quantity": 30,
+      "photo": "https://clinicamg.com/wp-content/uploads/2016/01/Jose.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Joel",
+      "paternal_surname": "Vilanueva",
+      "maternal_surname": "Del Rio",
+      "specialization": "Knees",
+      "age": 20,
+      "location": "Miraflores",
+      "birthdate": "24/05/1999",
+      "email": "jhondoe@gmail.com",
+      "rating": 3.2,
+      "consultations_quantity": 33,
+      "photo": "https://clinicamg.com/wp-content/uploads/2016/01/Jose.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "William",
+      "paternal_surname": "Cifuentes",
+      "maternal_surname": "Lopez",
+      "specialization": "Geriatrics",
+      "age": 26,
+      "location": "San Martin de Porres",
+      "birthdate": "24/05/1999",
+      "email": "jhondoe@gmail.com",
+      "rating": 5,
+      "consultations_quantity": 50,
+      "photo": "https://clinicamg.com/wp-content/uploads/2016/01/Jose.jpg"
+    }
+
+  ]
+}

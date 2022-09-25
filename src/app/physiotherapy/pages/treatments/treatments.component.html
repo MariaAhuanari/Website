@@ -1,0 +1,27 @@
+<div class="list">
+  <h1>Treatments</h1>
+  <div class="wrap">
+    <div class="search">
+      <input class="searchTerm" #inputSearch autofocus type="text" placeholder="Search" (keyup.enter)="getTreatmentByQuery(inputSearch.value)">
+      <button type="submit" class="searchButton" (click)="getTreatmentByQuery(inputSearch.value)">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+
+  <div *ngFor="let treatment of treatments">
+    <mat-card class="example-card">
+      <mat-card-title-group class="general-card" >
+        <div class="card-left">
+
+        <div class="card-titles">
+       <mat-card-title class="card-content-text" >{{treatment.title}}</mat-card-title>
+       <mat-card-subtitle class="card-content-text">Sessions Quantity: {{treatment.sessions_quantity}}</mat-card-subtitle>
+        </div>
+          <button mat-raised-button class="card-button" style="color: white">Info</button>
+        </div>
+        <img  class="card-content-img" mat-card-sm-image src="{{treatment.photo}}" alt="{{treatment.title}}" >
+        </mat-card-title-group>
+    </mat-card>
+  </div>
+</div>

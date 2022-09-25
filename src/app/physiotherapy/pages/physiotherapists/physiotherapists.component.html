@@ -1,0 +1,29 @@
+<div class="list">
+  <h1>Physiotherapists</h1>
+  <div class="wrap">
+    <div class="search">
+      <input class="searchTerm" #inputSearch autofocus type="text" placeholder="Search" (keyup.enter)="getPhysiotherapistByQuery(inputSearch.value)">
+      <button type="submit" class="searchButton" (click)="getPhysiotherapistByQuery(inputSearch.value)">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+
+  <div *ngFor="let physiotherapist of physiotherapists">
+    <mat-card class="example-card">
+      <mat-card-title-group class="general-card">
+        <div class="card-left">
+
+          <div class="card-titles">
+        <mat-card-title class="card-content-text" >{{physiotherapist.first_name}} {{physiotherapist.paternal_surname}}</mat-card-title>
+        <mat-card-subtitle class="card-content-text"><i class="fa-solid fa-star"></i>  {{physiotherapist.rating}}</mat-card-subtitle>
+        <mat-card-subtitle class="card-content-text">Medical consultancies:  {{physiotherapist.consultations_quantity}}</mat-card-subtitle>
+          </div>
+          <button mat-raised-button class="card-button" style="color: white">View Profile</button>
+        </div>
+
+            <img  class="card-content-img" mat-card-sm-image src="{{physiotherapist.photo}}" alt="{{physiotherapist.first_name}}'s profile photo" >
+      </mat-card-title-group>
+    </mat-card>
+  </div>
+</div>
