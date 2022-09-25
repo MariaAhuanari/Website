@@ -45,7 +45,7 @@ export class TreatmentsService {
   //Get Treatment by id
   getById(id: any): Observable<Treatment>{
     return this.http.get<Treatment>(
-      '${this.basePath}/${id}',
+      `${this.basePath}/${id}`,
     this.httpOptions)
     .pipe(
       retry(2),
@@ -67,5 +67,7 @@ export class TreatmentsService {
         retry(2),
         catchError(this.handleError));
   }
+
+
 
 }

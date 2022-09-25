@@ -4,5 +4,7 @@ export interface Treatment {
   description: string,
   sessions_quantity: number,
   physiotherapist_id: number,
-  photo: string
+  photo: string,
+  sessions: string[]
+
 }

@@ -18,7 +18,7 @@
        <mat-card-title class="card-content-text" >{{treatment.title}}</mat-card-title>
        <mat-card-subtitle class="card-content-text">Sessions Quantity: {{treatment.sessions_quantity}}</mat-card-subtitle>
         </div>
-          <button mat-raised-button class="card-button" style="color: white">Info</button>
+          <button mat-raised-button class="card-button" style="color: white" [routerLink]="['/treatments-info', treatment.id]" >Info</button>
         </div>
         <img  class="card-content-img" mat-card-sm-image src="{{treatment.photo}}" alt="{{treatment.title}}" >
         </mat-card-title-group>

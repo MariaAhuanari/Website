@@ -6,7 +6,8 @@
       "description": "lumbar description",
       "sessions_quantity": 28,
       "physiotherapist_id": 1,
-      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg"
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg",
+      "sessions": ["https://www.youtube.com/watch?v=hGU2ceM8aVY&t=4032s"]
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "description": "Neck description",
       "sessions_quantity": 30,
       "physiotherapist_id": 2,
-      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg"
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg",
+      "sessions": ["https://www.youtube.com/watch?v=hGU2ceM8aVY&t=4032s"]
     },
     {
       "id": 3,
@@ -22,15 +24,17 @@
       "description": "obesity description",
       "sessions_quantity": 20,
       "physiotherapist_id": 3,
-      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg"
+      "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg",
+      "sessions": ["https://www.youtube.com/watch?v=hGU2ceM8aVY&t=4032s"]
     },
     {
+      "id": 4,
       "title": "Knees",
       "description": "Knees description",
       "sessions_quantity": 15,
       "physiotherapist_id": 1,
       "photo": "https://orientacion.universia.edu.pe/imgs2011/imagenes/1k---2020--2020_10_30_143836@2x.766.jpg",
-      "id": 4
+      "sessions": ["https://www.youtube.com/watch?v=hGU2ceM8aVY&t=4032s"]
     }
   ],
   "physiotherapists": [

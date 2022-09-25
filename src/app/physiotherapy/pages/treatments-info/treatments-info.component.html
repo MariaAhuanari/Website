@@ -1,0 +1,20 @@
+<div  *ngIf="treatment$ | async as treatment">
+  <div class="content">
+    <div class="left-content">
+      <h1><a [routerLink]="'/treatments'"><</a> {{treatment.title}}</h1>
+      <h2>Sessions Quantity: {{treatment.sessions_quantity}}</h2>
+      <p>
+        {{treatment.description}}
+      </p>
+    </div>
+    <div class="content-img">
+      <img  class="card-content-img"  src="{{treatment.photo}}" alt="{{treatment.title}}" >
+    </div>
+
+  </div>
+
+  <button mat-raised-button class="card-button" style="color:white" [routerLink]="['/sessions', treatment.id]" >Enroll</button>
+
+
+
+</div>

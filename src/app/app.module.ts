@@ -22,12 +22,16 @@ import {MatDividerModule} from "@angular/material/divider";
 
 import { TreatmentsComponent } from './physiotherapy/pages/treatments/treatments.component';
 import { PhysiotherapistsComponent } from './physiotherapy/pages/physiotherapists/physiotherapists.component';
+import { TreatmentsInfoComponent } from './physiotherapy/pages/treatments-info/treatments-info.component';
+import { SessionsComponent } from './physiotherapy/pages/sessions/sessions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TreatmentsComponent,
-    PhysiotherapistsComponent
+    PhysiotherapistsComponent,
+    TreatmentsInfoComponent,
+    SessionsComponent
   ],
   imports: [
     BrowserModule,

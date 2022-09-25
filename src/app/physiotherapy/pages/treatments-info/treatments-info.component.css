@@ -1,0 +1,28 @@
+.content{
+  display:flex;
+}
+.left-content{
+  margin-left: 70px;
+}
+
+.left-content h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.left-content h2{
+  font-size: 15px;
+
+}
+
+.content-img{
+  margin-left: 350px;
+}
+
+.card-button{
+  background-color: #007aef;
+  margin-left: 480px;
+  margin-top:70px;
+  width:200px;
+  height:40px;
+}

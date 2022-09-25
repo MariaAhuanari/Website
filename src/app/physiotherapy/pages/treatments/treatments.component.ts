@@ -1,8 +1,8 @@
 import { Component, OnInit} from '@angular/core';
 import {Treatment} from "../../model/treatment";
 import {TreatmentsService} from "../../services/treatments.service";
-import {ActivatedRoute, ParamMap, Router} from "@angular/router";
-import {take} from "rxjs/operators";
+import {ActivatedRoute, Router} from "@angular/router";
+
 
 
 
