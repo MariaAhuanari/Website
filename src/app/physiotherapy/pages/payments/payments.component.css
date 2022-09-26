@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.form{
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  background-color: #F0F0F0;
+}
+
+.form-right{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  width: 400px;
+  padding: 30px 25px;
+}
+
+.form-top-right{
+  display: flex;
+  gap: 50px;
+}
+
+.form-top-right h1{
+  font: bold 40px "Open Sans";
+}
+
+.form-top-right h2{
+  color: #498FFF;
+}
+
+.form-body_right .form-label{
+  display: block;
+  font: lighter 16px "Open Sans";
+  position: relative;
+}
+
+mat-form-field{
+  width: 100%;
+
+}
+
+.form-body_right .cards{
+  display: flex;
+}
+.form-body_right .cards mat-form-field{
+  width: 98%;
+}
+
+mat-label{
+  color: #696979;
+  font-weight: bold;
+}
+
+.form-body_right-down{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-body_right-down .right h3{
+  margin-top: -20px;
+}
+
+.form-body_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.form-body_left .btn{
+  background-color: #007AF0;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 20%;
+}
+
+
