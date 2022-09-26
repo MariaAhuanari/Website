@@ -19,11 +19,15 @@ import {MatSortModule} from "@angular/material/sort";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatDividerModule} from "@angular/material/divider";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 import { TreatmentsComponent } from './physiotherapy/pages/treatments/treatments.component';
 import { PhysiotherapistsComponent } from './physiotherapy/pages/physiotherapists/physiotherapists.component';
 import { TreatmentsInfoComponent } from './physiotherapy/pages/treatments-info/treatments-info.component';
 import { SessionsComponent } from './physiotherapy/pages/sessions/sessions.component';
+import { ProfessionalProfileComponent } from './physiotherapy/pages/professional-profile/professional-profile.component';
+import { PaymentsComponent } from './physiotherapy/pages/payments/payments.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +35,9 @@ import { SessionsComponent } from './physiotherapy/pages/sessions/sessions.compo
     TreatmentsComponent,
     PhysiotherapistsComponent,
     TreatmentsInfoComponent,
-    SessionsComponent
+    SessionsComponent,
+    ProfessionalProfileComponent,
+    PaymentsComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +56,8 @@ import { SessionsComponent } from './physiotherapy/pages/sessions/sessions.compo
     MatSortModule,
     MatCardModule,
     MatGridListModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCheckboxModule
   ],
   providers: [TreatmentsService],
   bootstrap: [AppComponent]
